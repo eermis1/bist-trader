@@ -138,7 +138,7 @@ def build_snapshot() -> dict:
     # retired 2026-09-06 in favor of the Senaryo 1/2/3 framework -- their
     # code and state files remain (untouched, no longer traded) for
     # reference, but the dashboard no longer reads or displays them.
-    from . import bist_screen, funds, news, scenario3, scenarios
+    from . import bist_screen, funds, lessons, news, scenario3, scenarios
 
     try:
         scenario3.run_once()
@@ -146,6 +146,11 @@ def build_snapshot() -> dict:
         log.exception("Senaryo 3 trading cycle failed (non-fatal) -- showing last known state.")
     scenario3_state = _read_json(scenario3.STATE_FILE)
     scenario3_checklist = _latest_buy_checklist(scenario3.TRADE_LOG_FILE)
+    try:
+        scenario3_lessons = lessons.scenario3_lessons(scenario3.TRADE_LOG_FILE)
+    except Exception:
+        log.exception("Lessons-learned generation failed for Senaryo 3 (non-fatal).")
+        scenario3_lessons = {"recent": [], "aggregate_notes": [], "closed_count": 0}
 
     empty_news = {c: [] for c in ("Şirket", "Politika", "Ekonomi")}
     try:
@@ -193,6 +198,10 @@ def build_snapshot() -> dict:
         log.exception("Scenario snapshot failed (non-fatal).")
         scenario_data = {}
 
+    scenario3_summary = _portfolio_summary(scenario3_state, scenario3_checklist)
+    if scenario3_summary is not None:
+        scenario3_summary["lessons"] = scenario3_lessons
+
     return {
         "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
         "news": news_data,
@@ -200,7 +209,7 @@ def build_snapshot() -> dict:
         "bist_screen": bist_screen_data,
         "indices": indices_data,
         "scenarios": scenario_data,
-        "scenario3": _portfolio_summary(scenario3_state, scenario3_checklist),
+        "scenario3": scenario3_summary,
         "recommendations": recommendations,
     }
 

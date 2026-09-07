@@ -17,7 +17,7 @@ import logging
 
 from tefas import Crawler
 
-from . import bist_screen, config, data
+from . import bist_screen, config, data, lessons
 from . import funds as funds_mod
 from .portfolio import Portfolio
 
@@ -188,7 +188,7 @@ def snapshot(key: str) -> dict:
     days_elapsed = (dt.date.today() - start_date).days
     days_remaining = max(0, config.SCENARIO_HOLD_DAYS - days_elapsed)
 
-    return {
+    snap = {
         "key": key,
         "label": spec["label"],
         "initial_cash": portfolio.initial_cash,
@@ -206,6 +206,12 @@ def snapshot(key: str) -> dict:
         "positions": sorted(positions, key=lambda p: p["value"], reverse=True),
         "equity_curve": portfolio.equity_curve,
     }
+    try:
+        snap["lessons"] = lessons.buyhold_lessons(snap)
+    except Exception:
+        log.exception("Lessons-learned generation failed for scenario %s (non-fatal).", key)
+        snap["lessons"] = {"recent": [], "aggregate_notes": [], "closed_count": 0}
+    return snap
 
 
 def all_snapshots() -> dict:
