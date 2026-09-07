@@ -1,0 +1,109 @@
+{
+  "initial_cash": 10000.0,
+  "cash": 64.14205059611822,
+  "max_positions": 3,
+  "position_size_pct": 0.3333333333333333,
+  "commission_pct": 0.0015,
+  "min_cash_buffer_pct": 0.02,
+  "stop_loss_pct": 0.07,
+  "take_profit_pct": 0.25,
+  "positions": {
+    "ENERY.IS": {
+      "ticker": "ENERY.IS",
+      "qty": 301,
+      "entry_price": 11.039999961853027,
+      "entry_date": "2026-09-03",
+      "asset_type": "stock",
+      "reason": ""
+    },
+    "MIATK.IS": {
+      "ticker": "MIATK.IS",
+      "qty": 108,
+      "entry_price": 30.700000762939453,
+      "entry_date": "2026-09-03",
+      "asset_type": "stock",
+      "reason": ""
+    },
+    "KOCMT.IS": {
+      "ticker": "KOCMT.IS",
+      "qty": 875,
+      "entry_price": 3.740000009536743,
+      "entry_date": "2026-09-04",
+      "asset_type": "stock",
+      "reason": "momentum_checklist(score=3.0, kap=False, fin=True)"
+    }
+  },
+  "trades": [
+    {
+      "ticker": "ENERY.IS",
+      "side": "BUY",
+      "qty": 301,
+      "price": 11.039999961853027,
+      "date": "2026-09-03",
+      "reason": "momentum_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "MIATK.IS",
+      "side": "BUY",
+      "qty": 108,
+      "price": 30.700000762939453,
+      "date": "2026-09-03",
+      "reason": "momentum_checklist(score=2.5, kap=True, fin=False)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 878,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 878,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -4.925580012559891
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 875,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2026-09-03",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 9990.042039893628
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 9990.042039893628
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 9990.042039893628
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 9985.116459881068
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 9975.28212985599
+    }
+  ]
+}

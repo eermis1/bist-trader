@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Regenerable caches -- rebuilt automatically on first run
+data/cache/
+data/logs/*.log
+
+# Regenerated dashboard output -- reports/dashboard.html etc. are rebuilt
+# every cycle; no need to version them (they'd just be pure noise in diffs)
+reports/*.html
+reports/*.csv
+reports/*.png
+reports/*.json
+
+# Keep: data/state/*.json (portfolio state -- this is what makes the cloud
+# routine continue from where the local machine left off), data/logs/*.csv
+# (trade history), data/bist*.csv (ticker seed lists).

@@ -1,0 +1,49 @@
+date,ticker,side,qty,price,reason,pnl,technical,volume_high,kap_support,kap_reasons,financials_support,adx_strong,donchian_breakout,score
+2026-09-04,KOCMT.IS,BUY,2673,3.740000009536743,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,MIATK.IS,BUY,325,30.700000762939453,"senaryo3_checklist(score=2.5, kap=True, fin=False)",,False,True,True,Birleşme İşlemlerine İlişkin Bildirim; Birleşme İşlemlerine İlişkin Bildirim,False,False,False,2.50
+2026-09-04,UFUK.IS,BUY,6,1650.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,BIGTK.IS,BUY,30,330.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,ONCSM.IS,BUY,50,196.39999389648438,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,KOCMT.IS,SELL,2673,3.740000009536743,momentum_fading_rsi,-14.995530038237572,,,,,,,,
+2026-09-04,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,BIGTK.IS,SELL,30,330.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,ONCSM.IS,SELL,50,196.3999938964844,momentum_fading_rsi,-14.72999954223491,,,,,,,,
+2026-09-04,KOCMT.IS,BUY,2670,3.740000009536743,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,UFUK.IS,BUY,6,1650.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,BIGTK.IS,BUY,30,330.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,ONCSM.IS,BUY,50,196.3999938964844,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,KOCMT.IS,SELL,2670,3.740000009536743,momentum_fading_rsi,-14.978700038194656,,,,,,,,
+2026-09-04,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,BIGTK.IS,SELL,30,330.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,ONCSM.IS,SELL,50,196.3999938964844,momentum_fading_rsi,-14.729999542236332,,,,,,,,
+2026-09-04,KOCMT.IS,BUY,2667,3.740000009536743,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,UFUK.IS,BUY,6,1650.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,BIGTK.IS,BUY,30,330.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,ONCSM.IS,BUY,50,196.3999938964844,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,KOCMT.IS,SELL,2667,3.740000009536743,momentum_fading_rsi,-14.96187003815174,,,,,,,,
+2026-09-04,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,BIGTK.IS,SELL,30,330.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,ONCSM.IS,SELL,50,196.3999938964844,momentum_fading_rsi,-14.729999542236332,,,,,,,,
+2026-09-04,KOCMT.IS,BUY,2663,3.740000009536743,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,UFUK.IS,BUY,6,1650.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,BIGTK.IS,BUY,30,330.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,ONCSM.IS,BUY,50,196.3999938964844,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,KOCMT.IS,SELL,2663,3.740000009536743,momentum_fading_rsi,-14.939430038094521,,,,,,,,
+2026-09-04,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,BIGTK.IS,SELL,30,330.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,ONCSM.IS,SELL,50,196.3999938964844,momentum_fading_rsi,-14.729999542236332,,,,,,,,
+2026-09-04,KOCMT.IS,BUY,2660,3.740000009536743,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,UFUK.IS,BUY,6,1650.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,BIGTK.IS,BUY,30,330.0,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,ONCSM.IS,BUY,50,196.3999938964844,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-04,KOCMT.IS,SELL,2660,3.740000009536743,momentum_fading_rsi,-14.922600038051606,,,,,,,,
+2026-09-04,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,BIGTK.IS,SELL,30,330.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-04,ONCSM.IS,SELL,50,196.39999389648438,momentum_fading_rsi,-14.72999954223775,,,,,,,,
+2026-09-07,KOCMT.IS,SELL,2660,4.110000133514404,momentum_fading_rsi,967.8014292478562,,,,,,,,
+2026-09-07,UFUK.IS,SELL,6,1650.0,momentum_fading_below_ma,-14.85,,,,,,,,
+2026-09-07,BIGTK.IS,SELL,30,297.0,stop_loss,-1003.365,,,,,,,,
+2026-09-07,ONCSM.IS,SELL,50,177.5,stop_loss,-958.3121948242201,,,,,,,,
+2026-09-07,KRPLS.IS,BUY,799,12.430000305175781,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
+2026-09-07,PNSUT.IS,BUY,809,12.289999961853027,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
+2026-09-07,MEPET.IS,BUY,483,20.559999465942383,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00

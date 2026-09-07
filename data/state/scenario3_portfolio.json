@@ -1,0 +1,468 @@
+{
+  "initial_cash": 100000.0,
+  "cash": 58614.8971349155,
+  "max_positions": 10,
+  "position_size_pct": 0.1,
+  "commission_pct": 0.0015,
+  "min_cash_buffer_pct": 0.02,
+  "stop_loss_pct": 0.07,
+  "take_profit_pct": 0.25,
+  "positions": {
+    "MIATK.IS": {
+      "ticker": "MIATK.IS",
+      "qty": 325,
+      "entry_price": 30.700000762939453,
+      "entry_date": "2026-09-04",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=2.5, kap=True, fin=False)"
+    },
+    "KRPLS.IS": {
+      "ticker": "KRPLS.IS",
+      "qty": 799,
+      "entry_price": 12.430000305175781,
+      "entry_date": "2026-09-07",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
+    },
+    "PNSUT.IS": {
+      "ticker": "PNSUT.IS",
+      "qty": 809,
+      "entry_price": 12.289999961853027,
+      "entry_date": "2026-09-07",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
+    },
+    "MEPET.IS": {
+      "ticker": "MEPET.IS",
+      "qty": 483,
+      "entry_price": 20.559999465942383,
+      "entry_date": "2026-09-07",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
+    }
+  },
+  "trades": [
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2673,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "MIATK.IS",
+      "side": "BUY",
+      "qty": 325,
+      "price": 30.700000762939453,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.5, kap=True, fin=False)",
+      "pnl": null
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "BUY",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "BUY",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "BUY",
+      "qty": 50,
+      "price": 196.39999389648438,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 2673,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.995530038237572
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "SELL",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "SELL",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "SELL",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.72999954223491
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2670,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "BUY",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "BUY",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "BUY",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 2670,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.978700038194656
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "SELL",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "SELL",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "SELL",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.729999542236332
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2667,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "BUY",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "BUY",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "BUY",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 2667,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.96187003815174
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "SELL",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "SELL",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "SELL",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.729999542236332
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2663,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "BUY",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "BUY",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "BUY",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 2663,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.939430038094521
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "SELL",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "SELL",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "SELL",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "momentum_fading_rsi",
+      "pnl": -14.729999542236332
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2660,
+      "price": 3.740000009536743,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "BUY",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "BUY",
+      "qty": 30,
+      "price": 330.0,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "BUY",
+      "qty": 50,
+      "price": 196.3999938964844,
+      "date": "2026-09-04",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "SELL",
+      "qty": 2660,
+      "price": 4.110000133514404,
+      "date": "2026-09-07",
+      "reason": "momentum_fading_rsi",
+      "pnl": 967.8014292478562
+    },
+    {
+      "ticker": "UFUK.IS",
+      "side": "SELL",
+      "qty": 6,
+      "price": 1650.0,
+      "date": "2026-09-07",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -14.85
+    },
+    {
+      "ticker": "BIGTK.IS",
+      "side": "SELL",
+      "qty": 30,
+      "price": 297.0,
+      "date": "2026-09-07",
+      "reason": "stop_loss",
+      "pnl": -1003.365
+    },
+    {
+      "ticker": "ONCSM.IS",
+      "side": "SELL",
+      "qty": 50,
+      "price": 177.5,
+      "date": "2026-09-07",
+      "reason": "stop_loss",
+      "pnl": -958.3121948242201
+    },
+    {
+      "ticker": "KRPLS.IS",
+      "side": "BUY",
+      "qty": 799,
+      "price": 12.430000305175781,
+      "date": "2026-09-07",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "PNSUT.IS",
+      "side": "BUY",
+      "qty": 809,
+      "price": 12.289999961853027,
+      "date": "2026-09-07",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "MEPET.IS",
+      "side": "BUY",
+      "qty": 483,
+      "price": 20.559999465942383,
+      "date": "2026-09-07",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2026-09-04",
+      "equity": 99925.60822004758
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 99806.77399088666
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 99687.97342172582
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 99569.2121225651
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 99450.49009340446
+    },
+    {
+      "date": "2026-09-07",
+      "equity": 99391.55654443851
+    }
+  ]
+}

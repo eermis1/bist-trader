@@ -1,0 +1,226 @@
+{
+  "initial_cash": 100000.0,
+  "cash": 218.75289854838593,
+  "max_positions": 10,
+  "position_size_pct": 0.1,
+  "commission_pct": 0.0015,
+  "min_cash_buffer_pct": 0.02,
+  "stop_loss_pct": 0.12,
+  "take_profit_pct": 0.15,
+  "positions": {
+    "TGSAS.IS": {
+      "ticker": "TGSAS.IS",
+      "qty": 42,
+      "entry_price": 233.1999969482422,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Bilanço (sinyal skoru 5.0) -- TGS Dis Ticaret Anonim Sirketi (Sanayi / Industrial Distribution) alanında faaliyet gösteriyor. TGS Dis Ticaret Anonim Sirketi provides intermediary services to exporting companies in Turkey. Son günlerde KAP'a düşen bir"
+    },
+    "AVOD.IS": {
+      "ticker": "AVOD.IS",
+      "qty": 2123,
+      "entry_price": 4.710000038146973,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 4.5) -- A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi (Temel Tüketim / Packaged Foods) alanında faaliyet gösteriyor. A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi provides drie"
+    },
+    "HALKB.IS": {
+      "ticker": "HALKB.IS",
+      "qty": 183,
+      "entry_price": 54.34999847412109,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 3.5) -- Türkiye Halk Bankasi A.S. (Finansal Hizmetler / Banks - Regional) alanında faaliyet gösteriyor. Türkiye Halk Bankasi A.S., together with its subsidiaries, offers various banking products and services. Kamuya açık bir KAP"
+    },
+    "MIATK.IS": {
+      "ticker": "MIATK.IS",
+      "qty": 325,
+      "entry_price": 30.700000762939453,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Haber/KAP (sinyal skoru 3.0) -- MIA Teknoloji Anonim Sirketi (Teknoloji / Information Technology Services) alanında faaliyet gösteriyor. MIA Teknoloji Anonim Sirketi provides software development services to public and private organizations in Turkey. "
+    },
+    "VESTL.IS": {
+      "ticker": "VESTL.IS",
+      "qty": 377,
+      "entry_price": 26.459999084472656,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 2.5) -- Vestel Elektronik Sanayi ve Ticaret Anonim Sirketi (Dayanıklı Tüketim / Furnishings, Fixtures & Appliances) alanında faaliyet gösteriyor. Vestel Elektronik Sanayi ve Ticaret Anonim Sirketi, together with its subsidiaries"
+    },
+    "BALAT.IS": {
+      "ticker": "BALAT.IS",
+      "qty": 126,
+      "entry_price": 78.94999694824219,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 2.5) -- Balatacilar Balatacilik Sanayi Ve Ticaret A.S. (Dayanıklı Tüketim / Auto Parts) alanında faaliyet gösteriyor. Balatacilar Balatacilik Sanayi Ve Ticaret A.S. Kamuya açık bir KAP/bilanço tetikleyicisi bulunamadı, ama hacim"
+    },
+    "KOCMT.IS": {
+      "ticker": "KOCMT.IS",
+      "qty": 2673,
+      "entry_price": 3.740000009536743,
+      "entry_date": "2026-09-05",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 2.0) -- Koç Metalürji Anonim Sirketi (Temel Malzemeler / Steel) alanında faaliyet gösteriyor. Koç Metalürji Anonim Sirketi engages in the production and sales of metal billets, ribbed reinforced concrete bars, rebar, and constru"
+    },
+    "THF": {
+      "ticker": "THF",
+      "qty": 3591,
+      "entry_price": 2.784402,
+      "entry_date": "2026-09-05",
+      "asset_type": "fund",
+      "reason": "Fon lider tablosu, 1 Ay +29.4% -- Ayrıca KAP'a göre bu fonu yöneten TERA PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi yapmış: Pay Alım Satım Bildirimi (isim eşleşmesine dayalı olası ipucu, kesin bağlantı değil)."
+    },
+    "IDI": {
+      "ticker": "IDI",
+      "qty": 5779,
+      "entry_price": 1.730209,
+      "entry_date": "2026-09-05",
+      "asset_type": "fund",
+      "reason": "Fon lider tablosu, 1 Ay +17.2% -- Fon adına göre odağı 'İnşaat' -- bu temaya yakın hisselerdeki hareket katkı sağlamış olabilir. Ayrıca KAP'a göre bu fonu yöneten AZİMUT PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi yapmış: Pay Alım Satım Bi"
+    },
+    "KHA": {
+      "ticker": "KHA",
+      "qty": 2214,
+      "entry_price": 4.515228,
+      "entry_date": "2026-09-05",
+      "asset_type": "fund",
+      "reason": "Fon lider tablosu, 1 Ay +12.7% -- Fon adına göre odağı 'BIST 100 dışı / küçük-orta ölçek' -- bu temaya yakın hisselerdeki hareket katkı sağlamış olabilir. Ayrıca KAP'a göre bu fonu yöneten PARDUS PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi"
+    }
+  },
+  "trades": [
+    {
+      "ticker": "TGSAS.IS",
+      "side": "BUY",
+      "qty": 42,
+      "price": 233.1999969482422,
+      "date": "2026-09-05",
+      "reason": "Bilanço (sinyal skoru 5.0) -- TGS Dis Ticaret Anonim Sirketi (Sanayi / Industrial Distribution) alanında faaliyet gösteriyor. TGS Dis Ticaret Anonim Sirketi provides intermediary services to exporting companies in Turkey. Son günlerde KAP'a düşen bir",
+      "pnl": null
+    },
+    {
+      "ticker": "AVOD.IS",
+      "side": "BUY",
+      "qty": 2123,
+      "price": 4.710000038146973,
+      "date": "2026-09-05",
+      "reason": "Teknik/Hacim (sinyal skoru 4.5) -- A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi (Temel Tüketim / Packaged Foods) alanında faaliyet gösteriyor. A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi provides drie",
+      "pnl": null
+    },
+    {
+      "ticker": "HALKB.IS",
+      "side": "BUY",
+      "qty": 183,
+      "price": 54.34999847412109,
+      "date": "2026-09-05",
+      "reason": "Teknik/Hacim (sinyal skoru 3.5) -- Türkiye Halk Bankasi A.S. (Finansal Hizmetler / Banks - Regional) alanında faaliyet gösteriyor. Türkiye Halk Bankasi A.S., together with its subsidiaries, offers various banking products and services. Kamuya açık bir KAP",
+      "pnl": null
+    },
+    {
+      "ticker": "MIATK.IS",
+      "side": "BUY",
+      "qty": 325,
+      "price": 30.700000762939453,
+      "date": "2026-09-05",
+      "reason": "Haber/KAP (sinyal skoru 3.0) -- MIA Teknoloji Anonim Sirketi (Teknoloji / Information Technology Services) alanında faaliyet gösteriyor. MIA Teknoloji Anonim Sirketi provides software development services to public and private organizations in Turkey. ",
+      "pnl": null
+    },
+    {
+      "ticker": "VESTL.IS",
+      "side": "BUY",
+      "qty": 377,
+      "price": 26.459999084472656,
+      "date": "2026-09-05",
+      "reason": "Teknik/Hacim (sinyal skoru 2.5) -- Vestel Elektronik Sanayi ve Ticaret Anonim Sirketi (Dayanıklı Tüketim / Furnishings, Fixtures & Appliances) alanında faaliyet gösteriyor. Vestel Elektronik Sanayi ve Ticaret Anonim Sirketi, together with its subsidiaries",
+      "pnl": null
+    },
+    {
+      "ticker": "BALAT.IS",
+      "side": "BUY",
+      "qty": 126,
+      "price": 78.94999694824219,
+      "date": "2026-09-05",
+      "reason": "Teknik/Hacim (sinyal skoru 2.5) -- Balatacilar Balatacilik Sanayi Ve Ticaret A.S. (Dayanıklı Tüketim / Auto Parts) alanında faaliyet gösteriyor. Balatacilar Balatacilik Sanayi Ve Ticaret A.S. Kamuya açık bir KAP/bilanço tetikleyicisi bulunamadı, ama hacim",
+      "pnl": null
+    },
+    {
+      "ticker": "KOCMT.IS",
+      "side": "BUY",
+      "qty": 2673,
+      "price": 3.740000009536743,
+      "date": "2026-09-05",
+      "reason": "Teknik/Hacim (sinyal skoru 2.0) -- Koç Metalürji Anonim Sirketi (Temel Malzemeler / Steel) alanında faaliyet gösteriyor. Koç Metalürji Anonim Sirketi engages in the production and sales of metal billets, ribbed reinforced concrete bars, rebar, and constru",
+      "pnl": null
+    },
+    {
+      "ticker": "THF",
+      "side": "BUY",
+      "qty": 3591,
+      "price": 2.784402,
+      "date": "2026-09-05",
+      "reason": "Fon lider tablosu, 1 Ay +29.4% -- Ayrıca KAP'a göre bu fonu yöneten TERA PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi yapmış: Pay Alım Satım Bildirimi (isim eşleşmesine dayalı olası ipucu, kesin bağlantı değil).",
+      "pnl": null
+    },
+    {
+      "ticker": "IDI",
+      "side": "BUY",
+      "qty": 5779,
+      "price": 1.730209,
+      "date": "2026-09-05",
+      "reason": "Fon lider tablosu, 1 Ay +17.2% -- Fon adına göre odağı 'İnşaat' -- bu temaya yakın hisselerdeki hareket katkı sağlamış olabilir. Ayrıca KAP'a göre bu fonu yöneten AZİMUT PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi yapmış: Pay Alım Satım Bi",
+      "pnl": null
+    },
+    {
+      "ticker": "KHA",
+      "side": "BUY",
+      "qty": 2214,
+      "price": 4.515228,
+      "date": "2026-09-05",
+      "reason": "Fon lider tablosu, 1 Ay +12.7% -- Fon adına göre odağı 'BIST 100 dışı / küçük-orta ölçek' -- bu temaya yakın hisselerdeki hareket katkı sağlamış olabilir. Ayrıca KAP'a göre bu fonu yöneten PARDUS PORTFÖY, son 5 günde şu konularda Pay Alım Satım Bildirimi",
+      "pnl": null
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2026-09-05",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-05",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 99850.55230089648
+    },
+    {
+      "date": "2026-09-07",
+      "equity": 100777.05091906483
+    }
+  ]
+}

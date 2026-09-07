@@ -1,0 +1,83 @@
+{
+  "initial_cash": 10000.0,
+  "cash": 75.01492899656387,
+  "max_positions": 3,
+  "position_size_pct": 0.1,
+  "commission_pct": 0.0015,
+  "min_cash_buffer_pct": 0.02,
+  "stop_loss_pct": 0.12,
+  "take_profit_pct": 0.15,
+  "positions": {
+    "TGSAS.IS": {
+      "ticker": "TGSAS.IS",
+      "qty": 14,
+      "entry_price": 233.1999969482422,
+      "entry_date": "2026-09-06",
+      "asset_type": "stock",
+      "reason": "Bilanço (sinyal skoru 5.0) -- TGS Dis Ticaret Anonim Sirketi (Sanayi / Industrial Distribution) alanında faaliyet gösteriyor. TGS Dis Ticaret Anonim Sirketi provides intermediary services to exporting companies in Turkey. Son günlerde KAP'a düşen bir"
+    },
+    "AVOD.IS": {
+      "ticker": "AVOD.IS",
+      "qty": 707,
+      "entry_price": 4.710000038146973,
+      "entry_date": "2026-09-06",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 4.5) -- A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi (Temel Tüketim / Packaged Foods) alanında faaliyet gösteriyor. A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi provides drie"
+    },
+    "HALKB.IS": {
+      "ticker": "HALKB.IS",
+      "qty": 61,
+      "entry_price": 54.34999847412109,
+      "entry_date": "2026-09-06",
+      "asset_type": "stock",
+      "reason": "Teknik/Hacim (sinyal skoru 3.5) -- Türkiye Halk Bankasi A.S. (Finansal Hizmetler / Banks - Regional) alanında faaliyet gösteriyor. Türkiye Halk Bankasi A.S., together with its subsidiaries, offers various banking products and services. Kamuya açık bir KAP"
+    }
+  },
+  "trades": [
+    {
+      "ticker": "TGSAS.IS",
+      "side": "BUY",
+      "qty": 14,
+      "price": 233.1999969482422,
+      "date": "2026-09-06",
+      "reason": "Bilanço (sinyal skoru 5.0) -- TGS Dis Ticaret Anonim Sirketi (Sanayi / Industrial Distribution) alanında faaliyet gösteriyor. TGS Dis Ticaret Anonim Sirketi provides intermediary services to exporting companies in Turkey. Son günlerde KAP'a düşen bir",
+      "pnl": null
+    },
+    {
+      "ticker": "AVOD.IS",
+      "side": "BUY",
+      "qty": 707,
+      "price": 4.710000038146973,
+      "date": "2026-09-06",
+      "reason": "Teknik/Hacim (sinyal skoru 4.5) -- A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi (Temel Tüketim / Packaged Foods) alanında faaliyet gösteriyor. A.V.O.D Kurutulmus Gida ve Tarim Ürünleri Sanayi Ticaret Anonim Sirketi provides drie",
+      "pnl": null
+    },
+    {
+      "ticker": "HALKB.IS",
+      "side": "BUY",
+      "qty": 61,
+      "price": 54.34999847412109,
+      "date": "2026-09-06",
+      "reason": "Teknik/Hacim (sinyal skoru 3.5) -- Türkiye Halk Bankasi A.S. (Finansal Hizmetler / Banks - Regional) alanında faaliyet gösteriyor. Türkiye Halk Bankasi A.S., together with its subsidiaries, offers various banking products and services. Kamuya açık bir KAP",
+      "pnl": null
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2026-09-06",
+      "equity": 9985.13482016325
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 9985.13482016325
+    },
+    {
+      "date": "2026-09-06",
+      "equity": 9985.13482016325
+    },
+    {
+      "date": "2026-09-07",
+      "equity": 9572.034902751446
+    }
+  ]
+}

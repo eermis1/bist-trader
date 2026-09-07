@@ -1,0 +1,9 @@
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.24
+pytz>=2024.1
+matplotlib>=3.7
+pykap>=0.2.0
+requests>=2.31
+feedparser>=6.0
+tefas-crawler>=0.6.0

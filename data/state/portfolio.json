@@ -1,0 +1,12 @@
+{
+  "initial_cash": 100000.0,
+  "cash": 100000.0,
+  "positions": {},
+  "trades": [],
+  "equity_curve": [
+    {
+      "date": "2026-09-04",
+      "equity": 100000.0
+    }
+  ]
+}

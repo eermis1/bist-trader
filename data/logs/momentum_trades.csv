@@ -1,0 +1,6 @@
+date,ticker,side,qty,price,reason,pnl,technical,volume_high,kap_support,kap_reasons,financials_support,adx_strong,donchian_breakout,score
+2026-09-03,ENERY.IS,BUY,301,11.039999961853027,"momentum_checklist(score=3.0, kap=False, fin=True)",,True,True,False,,True,,,3.00
+2026-09-03,MIATK.IS,BUY,108,30.700000762939453,"momentum_checklist(score=2.5, kap=True, fin=False)",,False,True,True,Birleşme İşlemlerine İlişkin Bildirim; Birleşme İşlemlerine İlişkin Bildirim,False,,,2.50
+2026-09-04,KOCMT.IS,BUY,878,3.740000009536743,"momentum_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-04,KOCMT.IS,SELL,878,3.740000009536743,momentum_fading_rsi,-4.925580012559891,,,,,,,,
+2026-09-04,KOCMT.IS,BUY,875,3.740000009536743,"momentum_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
