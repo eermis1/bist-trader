@@ -47,3 +47,9 @@ date,ticker,side,qty,price,reason,pnl,technical,volume_high,kap_support,kap_reas
 2026-09-07,KRPLS.IS,BUY,799,12.430000305175781,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
 2026-09-07,PNSUT.IS,BUY,809,12.289999961853027,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
 2026-09-07,MEPET.IS,BUY,483,20.559999465942383,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-10,DEVA.IS,BUY,97,105.0999984741211,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
+2026-09-10,MARTI.IS,BUY,4010,2.549999952316284,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
+2026-09-10,MRGYO.IS,BUY,5244,1.9500000476837158,"senaryo3_checklist(score=5.5, kap=False, fin=True)",,True,True,False,,True,True,True,5.50
+2026-09-10,AKFGY.IS,BUY,3563,2.869999885559082,"senaryo3_checklist(score=3.5, kap=False, fin=True)",,False,True,False,,True,False,True,3.50
+2026-09-10,AHSGY.IS,BUY,658,15.539999961853027,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-10,BIGEN.IS,BUY,53,135.10000610351562,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00

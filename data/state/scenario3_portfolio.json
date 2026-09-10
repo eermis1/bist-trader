@@ -1,6 +1,6 @@
 {
   "initial_cash": 100000.0,
-  "cash": 58614.8971349155,
+  "cash": 270.0811887492273,
   "max_positions": 10,
   "position_size_pct": 0.1,
   "commission_pct": 0.0015,
@@ -39,6 +39,54 @@
       "entry_date": "2026-09-07",
       "asset_type": "stock",
       "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
+    },
+    "DEVA.IS": {
+      "ticker": "DEVA.IS",
+      "qty": 97,
+      "entry_price": 105.0999984741211,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
+    },
+    "MARTI.IS": {
+      "ticker": "MARTI.IS",
+      "qty": 4010,
+      "entry_price": 2.549999952316284,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
+    },
+    "MRGYO.IS": {
+      "ticker": "MRGYO.IS",
+      "qty": 5244,
+      "entry_price": 1.9500000476837158,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
+    },
+    "AKFGY.IS": {
+      "ticker": "AKFGY.IS",
+      "qty": 3563,
+      "entry_price": 2.869999885559082,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)"
+    },
+    "AHSGY.IS": {
+      "ticker": "AHSGY.IS",
+      "qty": 658,
+      "entry_price": 15.539999961853027,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)"
+    },
+    "BIGEN.IS": {
+      "ticker": "BIGEN.IS",
+      "qty": 53,
+      "entry_price": 135.10000610351562,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)"
     }
   },
   "trades": [
@@ -437,6 +485,60 @@
       "date": "2026-09-07",
       "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
       "pnl": null
+    },
+    {
+      "ticker": "DEVA.IS",
+      "side": "BUY",
+      "qty": 97,
+      "price": 105.0999984741211,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "MARTI.IS",
+      "side": "BUY",
+      "qty": 4010,
+      "price": 2.549999952316284,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "MRGYO.IS",
+      "side": "BUY",
+      "qty": 5244,
+      "price": 1.9500000476837158,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "AKFGY.IS",
+      "side": "BUY",
+      "qty": 3563,
+      "price": 2.869999885559082,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "AHSGY.IS",
+      "side": "BUY",
+      "qty": 658,
+      "price": 15.539999961853027,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BIGEN.IS",
+      "side": "BUY",
+      "qty": 53,
+      "price": 135.10000610351562,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
     }
   ],
   "equity_curve": [
@@ -479,6 +581,10 @@
     {
       "date": "2026-09-07",
       "equity": 99391.55654443851
+    },
+    {
+      "date": "2026-09-10",
+      "equity": 102173.76178843871
     }
   ]
 }
