@@ -53,3 +53,7 @@ date,ticker,side,qty,price,reason,pnl,technical,volume_high,kap_support,kap_reas
 2026-09-10,AKFGY.IS,BUY,3563,2.869999885559082,"senaryo3_checklist(score=3.5, kap=False, fin=True)",,False,True,False,,True,False,True,3.50
 2026-09-10,AHSGY.IS,BUY,658,15.539999961853027,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
 2026-09-10,BIGEN.IS,BUY,53,135.10000610351562,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-11,MIATK.IS,SELL,325,38.47999954223633,take_profit,2509.7406034946443,,,,,,,,
+2026-09-11,BIGEN.IS,SELL,53,139.0,momentum_fading_below_ma,195.64917651367188,,,,,,,,
+2026-09-11,VAKBN.IS,BUY,279,36.68000030517578,"senaryo3_checklist(score=4.0, kap=False, fin=True)",,True,True,False,,True,True,False,4.00
+2026-09-11,TTKOM.IS,BUY,165,58.54999923706055,"senaryo3_checklist(score=3.5, kap=False, fin=True)",,False,True,False,,True,False,True,3.50
