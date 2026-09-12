@@ -1,6 +1,6 @@
 {
   "initial_cash": 100000.0,
-  "cash": 188.95987600126864,
+  "cash": 251.6637758473462,
   "max_positions": 10,
   "position_size_pct": 0.1,
   "commission_pct": 0.0015,
@@ -64,14 +64,6 @@
       "asset_type": "stock",
       "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)"
     },
-    "AHSGY.IS": {
-      "ticker": "AHSGY.IS",
-      "qty": 658,
-      "entry_price": 15.539999961853027,
-      "entry_date": "2026-09-10",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)"
-    },
     "VAKBN.IS": {
       "ticker": "VAKBN.IS",
       "qty": 279,
@@ -87,6 +79,14 @@
       "entry_date": "2026-09-11",
       "asset_type": "stock",
       "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)"
+    },
+    "AHSGY.IS": {
+      "ticker": "AHSGY.IS",
+      "qty": 652,
+      "entry_price": 15.539999961853027,
+      "entry_date": "2026-09-10",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)"
     }
   },
   "trades": [
@@ -575,6 +575,24 @@
       "date": "2026-09-11",
       "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)",
       "pnl": null
+    },
+    {
+      "ticker": "AHSGY.IS",
+      "side": "SELL",
+      "qty": 658,
+      "price": 15.539999961853027,
+      "date": "2026-09-10",
+      "reason": "momentum_fading_rsi",
+      "pnl": -15.337979962348939
+    },
+    {
+      "ticker": "AHSGY.IS",
+      "side": "BUY",
+      "qty": 652,
+      "price": 15.539999961853027,
+      "date": "2026-09-10",
+      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
+      "pnl": null
     }
   ],
   "equity_curve": [
@@ -629,6 +647,10 @@
     {
       "date": "2026-09-11",
       "equity": 102393.26958721915
+    },
+    {
+      "date": "2026-09-10",
+      "equity": 101317.53290741245
     }
   ]
 }
