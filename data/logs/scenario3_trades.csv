@@ -59,3 +59,15 @@ date,ticker,side,qty,price,reason,pnl,technical,volume_high,kap_support,kap_reas
 2026-09-11,TTKOM.IS,BUY,165,58.54999923706055,"senaryo3_checklist(score=3.5, kap=False, fin=True)",,False,True,False,,True,False,True,3.50
 2026-09-10,AHSGY.IS,SELL,658,15.539999961853027,momentum_fading_rsi,-15.337979962348939,,,,,,,,
 2026-09-10,AHSGY.IS,BUY,652,15.539999961853027,"senaryo3_checklist(score=3.0, kap=False, fin=True)",,False,True,False,,True,True,False,3.00
+2026-09-16,KRPLS.IS,SELL,799,11.5600004196167,momentum_fading_below_ma,-708.9845690646172,,,,,,,,
+2026-09-16,PNSUT.IS,SELL,809,10.699999809265137,stop_loss,-1299.2945732121468,,,,,,,,
+2026-09-16,MEPET.IS,SELL,483,18.979999542236328,stop_loss,-776.8909728183746,,,,,,,,
+2026-09-16,DEVA.IS,SELL,97,94.19999694824219,stop_loss,-1071.0062475662232,,,,,,,,
+2026-09-16,AKFGY.IS,SELL,3563,2.5399999618530273,stop_loss,-1189.3647579607964,,,,,,,,
+2026-09-16,VAKBN.IS,SELL,279,30.860000610351562,stop_loss,-1636.6948251113893,,,,,,,,
+2026-09-16,TTKOM.IS,SELL,165,49.84000015258789,stop_loss,-1449.4852489757538,,,,,,,,
+2026-09-16,AHSGY.IS,SELL,652,13.710000038146973,stop_loss,-1206.5683302936554,,,,,,,,
+2026-09-16,TKFEN.IS,BUY,39,234.6999969482422,"senaryo3_checklist(score=4.0, kap=False, fin=True)",,True,True,False,,True,True,False,4.00
+2026-09-16,BESTE.IS,BUY,335,27.780000686645508,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-16,LIDFA.IS,BUY,6221,1.5,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00
+2026-09-16,DMRGD.IS,BUY,864,10.800000190734863,"senaryo3_checklist(score=2.0, kap=False, fin=True)",,False,True,False,,True,False,False,2.00

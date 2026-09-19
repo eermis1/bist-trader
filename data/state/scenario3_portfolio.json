@@ -1,6 +1,6 @@
 {
   "initial_cash": 100000.0,
-  "cash": 251.6637758473462,
+  "cash": 33987.10985827675,
   "max_positions": 10,
   "position_size_pct": 0.1,
   "commission_pct": 0.0015,
@@ -8,38 +8,6 @@
   "stop_loss_pct": 0.07,
   "take_profit_pct": 0.25,
   "positions": {
-    "KRPLS.IS": {
-      "ticker": "KRPLS.IS",
-      "qty": 799,
-      "entry_price": 12.430000305175781,
-      "entry_date": "2026-09-07",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
-    },
-    "PNSUT.IS": {
-      "ticker": "PNSUT.IS",
-      "qty": 809,
-      "entry_price": 12.289999961853027,
-      "entry_date": "2026-09-07",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
-    },
-    "MEPET.IS": {
-      "ticker": "MEPET.IS",
-      "qty": 483,
-      "entry_price": 20.559999465942383,
-      "entry_date": "2026-09-07",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
-    },
-    "DEVA.IS": {
-      "ticker": "DEVA.IS",
-      "qty": 97,
-      "entry_price": 105.0999984741211,
-      "entry_date": "2026-09-10",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
-    },
     "MARTI.IS": {
       "ticker": "MARTI.IS",
       "qty": 4010,
@@ -56,37 +24,37 @@
       "asset_type": "stock",
       "reason": "senaryo3_checklist(score=5.5, kap=False, fin=True)"
     },
-    "AKFGY.IS": {
-      "ticker": "AKFGY.IS",
-      "qty": 3563,
-      "entry_price": 2.869999885559082,
-      "entry_date": "2026-09-10",
-      "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)"
-    },
-    "VAKBN.IS": {
-      "ticker": "VAKBN.IS",
-      "qty": 279,
-      "entry_price": 36.68000030517578,
-      "entry_date": "2026-09-11",
+    "TKFEN.IS": {
+      "ticker": "TKFEN.IS",
+      "qty": 39,
+      "entry_price": 234.6999969482422,
+      "entry_date": "2026-09-16",
       "asset_type": "stock",
       "reason": "senaryo3_checklist(score=4.0, kap=False, fin=True)"
     },
-    "TTKOM.IS": {
-      "ticker": "TTKOM.IS",
-      "qty": 165,
-      "entry_price": 58.54999923706055,
-      "entry_date": "2026-09-11",
+    "BESTE.IS": {
+      "ticker": "BESTE.IS",
+      "qty": 335,
+      "entry_price": 27.780000686645508,
+      "entry_date": "2026-09-16",
       "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=3.5, kap=False, fin=True)"
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
     },
-    "AHSGY.IS": {
-      "ticker": "AHSGY.IS",
-      "qty": 652,
-      "entry_price": 15.539999961853027,
-      "entry_date": "2026-09-10",
+    "LIDFA.IS": {
+      "ticker": "LIDFA.IS",
+      "qty": 6221,
+      "entry_price": 1.5,
+      "entry_date": "2026-09-16",
       "asset_type": "stock",
-      "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)"
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
+    },
+    "DMRGD.IS": {
+      "ticker": "DMRGD.IS",
+      "qty": 864,
+      "entry_price": 10.800000190734863,
+      "entry_date": "2026-09-16",
+      "asset_type": "stock",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)"
     }
   },
   "trades": [
@@ -593,6 +561,114 @@
       "date": "2026-09-10",
       "reason": "senaryo3_checklist(score=3.0, kap=False, fin=True)",
       "pnl": null
+    },
+    {
+      "ticker": "KRPLS.IS",
+      "side": "SELL",
+      "qty": 799,
+      "price": 11.5600004196167,
+      "date": "2026-09-16",
+      "reason": "momentum_fading_below_ma",
+      "pnl": -708.9845690646172
+    },
+    {
+      "ticker": "PNSUT.IS",
+      "side": "SELL",
+      "qty": 809,
+      "price": 10.699999809265137,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1299.2945732121468
+    },
+    {
+      "ticker": "MEPET.IS",
+      "side": "SELL",
+      "qty": 483,
+      "price": 18.979999542236328,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -776.8909728183746
+    },
+    {
+      "ticker": "DEVA.IS",
+      "side": "SELL",
+      "qty": 97,
+      "price": 94.19999694824219,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1071.0062475662232
+    },
+    {
+      "ticker": "AKFGY.IS",
+      "side": "SELL",
+      "qty": 3563,
+      "price": 2.5399999618530273,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1189.3647579607964
+    },
+    {
+      "ticker": "VAKBN.IS",
+      "side": "SELL",
+      "qty": 279,
+      "price": 30.860000610351562,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1636.6948251113893
+    },
+    {
+      "ticker": "TTKOM.IS",
+      "side": "SELL",
+      "qty": 165,
+      "price": 49.84000015258789,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1449.4852489757538
+    },
+    {
+      "ticker": "AHSGY.IS",
+      "side": "SELL",
+      "qty": 652,
+      "price": 13.710000038146973,
+      "date": "2026-09-16",
+      "reason": "stop_loss",
+      "pnl": -1206.5683302936554
+    },
+    {
+      "ticker": "TKFEN.IS",
+      "side": "BUY",
+      "qty": 39,
+      "price": 234.6999969482422,
+      "date": "2026-09-16",
+      "reason": "senaryo3_checklist(score=4.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "BESTE.IS",
+      "side": "BUY",
+      "qty": 335,
+      "price": 27.780000686645508,
+      "date": "2026-09-16",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "LIDFA.IS",
+      "side": "BUY",
+      "qty": 6221,
+      "price": 1.5,
+      "date": "2026-09-16",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
+    },
+    {
+      "ticker": "DMRGD.IS",
+      "side": "BUY",
+      "qty": 864,
+      "price": 10.800000190734863,
+      "date": "2026-09-16",
+      "reason": "senaryo3_checklist(score=2.0, kap=False, fin=True)",
+      "pnl": null
     }
   ],
   "equity_curve": [
@@ -651,6 +727,10 @@
     {
       "date": "2026-09-10",
       "equity": 101317.53290741245
+    },
+    {
+      "date": "2026-09-16",
+      "equity": 93266.53077244989
     }
   ]
 }
